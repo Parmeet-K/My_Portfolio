@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Parmeet's Portfolio</title>
+<link rel="icon" href="assets/profile.jpg" />
+<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+<link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"/>
+</head>
+<body>
+
+  <input type="checkbox" id="toggle" checked />
+  <div class="page-wrapper">
+    <header class="main-header" role="banner">
+      <label for="toggle" class="toggle-label" aria-label="Toggle Dark Mode">🌙</label>
+      <h1>Parmeet Kaur</h1>
+      <nav class="main-nav" role="navigation" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#about" tabindex="0">About</a></li>
+          <li><a href="#skills" tabindex="0">Skills</a></li>
+          <li><a href="#projects" tabindex="0">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#resume-contact" tabindex="0">Resume & Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h1>About Me</h1>
+      <img src="assets/profile.jpg" alt="Parmeet's Photo" />
+      <p>Hello There!</p>
+      <p><span>I'm Parmeet</span></p>
+      <p>I'm a web developer skilled in Frontend Technologies, such as HTML, CSS, and JavaScript, passionate about building clean and efficient websites.</p>
+
+    </section>
+
+    <section class="card" id="skills">
+      <h1>Skills</h1>
+      <div class="skills">
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <p><strong>HTML</strong></p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <p><strong>CSS</strong></p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js-square"></i>
+          <p><strong>JavaScript</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="projects">
+      <h1>Projects</h1>
+      <div class="projects">
+        <div class="project" tabindex="0">
+          <div class="project-inner">
+            <div class="project-front">
+              <img src="assets/VC.png" alt="VoiceCraft Project" />
+              <p>VoiceCraft: Text to Speech</p>
+            </div>
+            <div class="project-back">
+              A web app converting text into speech using Web Speech API.
+            </div>
+          </div>
+        </div>
+        <div class="project" tabindex="0">
+          <div class="project-inner">
+            <div class="project-front">
+              <img src="assets/UC.png" alt="Unit Converter Project" />
+              <p>Unit Converter</p>
+            </div>
+            <div class="project-back">
+              A responsive tool that converts between metric and imperial units.
+            </div>
+          </div>
+        </div>
+        <div class="project" tabindex="0">
+          <div class="project-inner">
+            <div class="project-front">
+              <img src="assets/BK.png" alt="Bakery Page Project" />
+              <p>Bakery Landing Page</p>
+            </div>
+            <div class="project-back">
+              A sweet-themed homepage using modern layout and CSS.
+            </div>
+          </div>
+        </div>
+        <div class="project" tabindex="0">
+          <div class="project-inner">
+            <div class="project-front">
+              <img src="assets/CAL.png" alt="Calculator Project" />
+              <p>Calculator</p>
+            </div>
+            <div class="project-back">
+              A simple calculator built with HTML, CSS, and JavaScript.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" id="achievements">
+    <h1>Achievements</h1>
+     <div class="achievements">
+      <div class="achievement">
+      <h3>Frontend Web Development</h3>
+      <p>Certified by Infosys</p>
+      </div>
+      <div class="achievement">
+      <h3>Internship at CodSoft</h3>
+      <p>Web Developer Intern</p>
+      </div>
+      <div class="achievement">
+      <h3>Udemy Course</h3>
+      <p>Frontend Web Development Bootcamp</p>
+      </div>
+      <div class="achievement">
+      <h3>Agile Scrum</h3>
+      <p>Certified by Infosys</p>
+      </div>
+     </div>
+    </section>
+
+
+    <section id="resume-contact">
+      <div class="resume-box" tabindex="0" aria-label="Resume Section">
+        <h1>Resume</h1>
+        <a href="assets/Resume.pdf" download>Download My Resume</a>
+      </div>
+      <div class="contact-box" tabindex="0" aria-label="Contact Section">
+        <h1>Contact</h1>
+        <div class="contact-icons">
+          <a href="mailto:parmeetk849@gmail.com" title="Email" aria-label="Email"><i class="fa fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/parmeet-kaur-in" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Parmeet-K" target="_blank" rel="noopener" title="GitHub" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2025 Parmeet Kaur.
+    </footer>
+  </div>
+</body>
+</html>
