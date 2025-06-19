@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio Website
+# 🌐 Personal Portfolio 
 
 Welcome to my **Personal Portfolio Website**, built with pure **HTML** and **CSS**!  
 This responsive site highlights my **skills**, **projects**, **achievements**, and more — complete with a **dark/light theme toggle** and optimized for all devices.
