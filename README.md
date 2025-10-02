@@ -22,6 +22,8 @@ portfolio/
 
 ├── style.css # Core CSS styling
 
+├── script.js # javascript file
+
 ├── assets/ # Images, resume, icons, etc.
 
 ## 🖼️ Live Demo
@@ -36,6 +38,8 @@ This portfolio supports switching between Dark and Light modes. The toggle butto
 HTML5
 
 CSS3 (Flexbox, Media Queries, CSS Variables)
+
+JavaScript
 
 ## 📜 License
 
