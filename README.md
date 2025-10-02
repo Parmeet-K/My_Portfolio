@@ -28,7 +28,7 @@ portfolio/
 
 ## 🖼️ Live Demo
 
-live link:  https://parmeet-k.github.io/codsoft_1_Portfolio/
+live link:  [Click](https://parmeet-k.github.io/My_Portfolio/)
 
 ## 🌙 Theme Toggle
 
