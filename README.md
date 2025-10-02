@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio 
 
-Welcome to my **Personal Portfolio Website**, built with pure **HTML** and **CSS**!  
+Welcome to my **Personal Portfolio**, built with **HTML**, **CSS** and **JS**!  
 This responsive site highlights my **skills**, **projects**, **achievements**, and more — complete with a **dark/light theme toggle** and optimized for all devices.
 
 ## 🚀 Features
@@ -40,8 +40,3 @@ HTML5
 CSS3 (Flexbox, Media Queries, CSS Variables)
 
 JavaScript
-
-## 📜 License
-
-This project is open-source and available under the MIT License.
-
